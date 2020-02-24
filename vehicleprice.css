@@ -1,0 +1,89 @@
+.header{
+			position: fixed;
+			right: 0;
+			top: 0;
+			height: 15vh;
+			width: 100%;
+			text-align: center;
+			color: red;
+			background-color: #4CAF50;	
+
+		}
+		.container{
+			width: 55.5vh;
+			height: 44vh;
+			border:2px solid;
+			margin-top: 26vh;
+			margin-left: 75vh;
+			text-align: center;
+
+		}
+		.btn{
+			background-color: white;
+			border: solid;
+			color: green;
+			text-align: center;
+			font-size: 16px;
+			padding: 12px 24px;
+			margin-left: 5vh;
+			cursor: pointer;
+			outline: none;
+			width: 20vh;
+			border-radius: 20px;
+		}
+			.footer{
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			background-color:  #4CAF50;
+		}
+		.ft1{
+			padding-left: 10px;
+			float: left;
+			font-style: bold;
+		}
+		.ft2{
+			padding-right: 10px;
+			float: right;
+			font-style: bold;
+		}
+		#a{
+			text-decoration: none; 
+			font-size: 22;
+			border: solid;
+			color: black;
+			text-align: center;
+			font-size: 19px;
+			padding: 14px 65px;
+			cursor: pointer;
+			outline: none;
+			width: 16px;
+			border-radius: 15px;
+			text-decoration: none;
+			margin-left: 15vh;
+		}
+		.a{
+			margin-top: 9vh;
+		}
+		#b{
+			text-decoration: none; 
+			font-size: 22;
+			border: solid;
+			color: black;
+			text-align: center;
+			font-size: 19px;
+			padding: 14px 65px;
+			cursor: pointer;
+			outline: none;
+			width: 16px;
+			border-radius: 15px;
+			text-decoration: none;
+			margin-left: 165vh;	
+		}
+		.b{
+			margin-top: -3vh;
+		}
+		label{
+			font-weight: bold;
+		}

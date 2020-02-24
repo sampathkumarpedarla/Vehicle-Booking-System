@@ -1,0 +1,35 @@
+body{
+    background-color: aquamarine;
+}
+.card-container{
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-gap: 25px;
+    /*background-color: yellow;*/
+    height: 50%;
+}
+/*.test{
+    height:100%;
+    background-color: aqua;
+    margin-bottom: 80%;
+}*/
+.cards{
+    text-align: center;
+    height: 80%;
+    border:2px solid gray; 
+    background-color: white;
+
+}
+.cards button{
+    background-color: rgb(58, 57, 57);
+    color: antiquewhite;
+    width: 100%;
+}
+.cards h3{
+    background-color: lightgray;
+}
+/*.cards img{
+    height: 50%;
+    width: 100%;
+}*/

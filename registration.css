@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url("car1.jpg");
+    background-size: cover;
+
+}
+.signup
+{
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    background: rgba(101,102,114,0.7);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    border-radius:05px;
+}
+
+.signup img
+{
+    width:50%;
+    height:50%;
+
+}
+.signup input{
+    display: block;
+    width:100%;
+    padding-left: 10px;
+    height:44px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
+.txt{ 
+    margin: 8px 0px;
+    border-radius: 05px;
+}
+
+.btn{
+    margin-top: 40px;
+    margin-bottom: 12px;
+    background-color: #487eb0;
+    color: #fff;
+    border-radius: 40px;
+    cursor:pointer;
+    transform: 0.8s;
+}
+
+.btn:hover{
+    transform: scale(0.96);
+}
+
+.signup a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    transition:0.8s;
+    display:block;
+}
+.signup a:hover{
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+}
+.signup span{
+    color:red;
+}

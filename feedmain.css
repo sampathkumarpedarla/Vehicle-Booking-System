@@ -1,0 +1,39 @@
+       .header{
+            position: fixed;
+            right: 0;
+            top: 0;
+            height: 20vh;
+            width: 100%;
+            background-color:  #4CAF50;
+            text-align: center;
+        }
+        .container{
+            margin-left: 30vh;
+            margin-top: 22vh;
+            border: 3px solid  ;
+            height: 80vh;
+            width: 70%;
+            align-content: center;
+            text-align: center;
+            font-family: Arial;
+            font-size: 16px;
+        }
+        .btn{
+            background-color: #4CAF50;
+            border: solid;
+            color: white;
+            text-align: center;
+            font-size: 16px;
+            padding: 12px 24px;
+            margin-left: 2vh;
+            cursor: pointer;
+            outline: none;
+            width: 20vh;
+            border-radius: 20px;
+            -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+        }
+        .btn:hover{
+             background-color: white;
+             color: #4CAF50;
+        }
